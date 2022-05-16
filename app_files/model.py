@@ -7,6 +7,11 @@ import matplotlib.pyplot as plt
 
 dataset = pd.read_csv('50_Startup.csv')
 
+'''
+The code to visualize the trained model
+across each feature is shown below.
+'''
+
 # Importing data set
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 3].values
