@@ -9,6 +9,10 @@ Deploying a ML model web app on GCP through a CD pipeline
 - Numpy
 - Flask
 
+## Dataset used:
+
+We will be using the 50_Startup.csv data from kaggle located [here](https://www.kaggle.com/datasets/karthickveerakumar/startup-logistic-regression) where the goal is to train a regression model (f(X)) using the three features (x₁,x₂,x₃) as (R&D Spend, Administration Cost, Marketing Cost), and predict the company ‘Profit’ (Y).
+
 ## ML Model Flask-Deployment
 
 This is
